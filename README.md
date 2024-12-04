@@ -2,7 +2,7 @@
 
 
 
-[Сcылка на GitHub Pages](https://vladvolkv71.github.io/ahj-code-tests/)
+[Сcылка на GitHub Pages](https://vladvolkov71.github.io/ahj-code-tests/)
 
 Правила сдачи задания:
 
