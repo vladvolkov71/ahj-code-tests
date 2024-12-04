@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-validator {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-icons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.card-icon {
+  width: 50px;
+  height: 30px;
+  margin: 0 5px;
+  opacity: 0.3;
+}
+
+.card-icon.active {
+  opacity: 1;
+  border: 1px solid #e70606;
+}
+
+#card-number {
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 100%;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+#validate-button {
+  padding: 10px;
+  width: 100%;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#validate-button:hover {
+  background-color: #218838;
+}
